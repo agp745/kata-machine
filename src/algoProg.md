@@ -57,3 +57,7 @@ Research the following algorithms on your own for implimentation (not covered in
 
 -   ArrayList.ts
 -   (Array Buffer (ring buffer)) - not in here, maybe try to create the template and test for it!
+
+### Recursion
+
+-   MazeSolver.ts
