@@ -2,6 +2,14 @@
 
 Do these algorithms in this order. As you progress, you will add more algorithms to the list
 
+## Generating Days / Algoroithms
+
+To geneare a new day/set of algorithms, run the following command in the root level of the kata-machine
+
+```bash
+npm run generate
+```
+
 ## Testing
 
 To test your algorithm, run the following command in your terminal
@@ -16,15 +24,15 @@ for example
 npx jest LinearSearchList.ts
 ```
 
-### Notes:
+### Notes
 
--   The file name does not have to be written out entirely to run tests...
+- The file name does not have to be written out entirely to run tests...
 
     ```bash
     npx jest linear
     ```
 
--   in the ArrayList.ts test change the following code -
+- in the ArrayList.ts test change the following code -
 
     ```typescript
     const list = new ArrayList<number>(3); //wrong
@@ -36,28 +44,29 @@ npx jest LinearSearchList.ts
 
 Research the following algorithms on your own for implimentation (not covered in ThePrimeagen's course):
 
--   SinglyLinkedList.ts
--   DoublyLinkedList.ts
+- SinglyLinkedList.ts
+- DoublyLinkedList.ts
 
 ## Algorithms
 
 ### Search
 
--   LinearSearchList.ts
--   BinarySearchList.ts
--   TwoCrystallBalls.ts
+- LinearSearchList.ts
+- BinarySearchList.ts
+- TwoCrystallBalls.ts
 
 ### Sort
 
--   BubbleSort.ts
--   Queue.ts (GOOD)
--   Stack.ts (GOOD)
+- BubbleSort.ts
+- Queue.ts
+- Stack.ts
 
 ### Arrays
 
--   ArrayList.ts
--   (Array Buffer (ring buffer)) - not in here, maybe try to create the template and test for it!
+- ArrayList.ts
+- (Array Buffer (ring buffer)) - not in here, maybe try to create the template and test for it!
 
 ### Recursion
 
--   MazeSolver.ts
+- MazeSolver.ts
+- QuickSort.ts
