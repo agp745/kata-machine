@@ -44,8 +44,7 @@ npx jest LinearSearchList.ts
 
 Research the following algorithms on your own for implimentation (not covered in ThePrimeagen's course):
 
-- SinglyLinkedList.ts
-- DoublyLinkedList.ts
+- Array Buffer (Ring Buffer)
 
 ## Algorithms
 
@@ -58,15 +57,19 @@ Research the following algorithms on your own for implimentation (not covered in
 ### Sort
 
 - BubbleSort.ts
-- Queue.ts
-- Stack.ts
-
-### Arrays
-
-- ArrayList.ts
-- (Array Buffer (ring buffer)) - not in here, maybe try to create the template and test for it!
+- QuickSort.ts
 
 ### Recursion
 
 - MazeSolver.ts
-- QuickSort.ts
+
+## Linked Lists
+
+- Queue.ts
+- Stack.ts
+- SinglyLinkedList.ts
+- DoublyLinkedList.ts
+
+### Arrays
+
+- ArrayList.ts
