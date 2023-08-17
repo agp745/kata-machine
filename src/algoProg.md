@@ -54,15 +54,6 @@ Research the following algorithms on your own for implimentation (not covered in
 - BinarySearchList.ts
 - TwoCrystallBalls.ts
 
-### Sort
-
-- BubbleSort.ts
-- QuickSort.ts
-
-### Recursion
-
-- MazeSolver.ts
-
 ## Linked Lists
 
 - Queue.ts
@@ -73,3 +64,23 @@ Research the following algorithms on your own for implimentation (not covered in
 ### Arrays
 
 - ArrayList.ts
+
+### Sort
+
+- BubbleSort.ts
+- QuickSort.ts
+
+### Recursion
+
+- MazeSolver.ts
+
+### Tree Traversal
+
+- BTPreOrder.ts
+- BTInOrder.ts
+- BTPostOrder.ts
+
+### Tree Search
+
+- BTBFS.ts
+- CompareBinaryTrees.ts
