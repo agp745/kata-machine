@@ -20,7 +20,7 @@ function partition(arr: number[], lo: number, hi: number): number {
 
 function qs(arr: number[], lo: number, hi: number): void {
     if(lo >= hi) {
-        return 
+        return
     }
 
     const pivotIdx = partition(arr, lo, hi)

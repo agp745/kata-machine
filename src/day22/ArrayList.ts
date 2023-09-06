@@ -13,8 +13,8 @@ export default class ArrayList<T> {
     }
 
     insertAt(item: T, idx: number): void {
-        if(idx < 0 || idx >= this.length) {
-            throw new Error ('invalid index')
+        if(idx < 0 || idx > this.length) {
+            throw new Error ('error')
         }
         this.array.splice(idx, 0, item)
     }
@@ -26,28 +26,28 @@ export default class ArrayList<T> {
 
     remove(item: T): T | undefined {
         const idx = this.array.indexOf(item)
-        if(idx < 0 || idx > this.length) {
+        if(idx < 0) {
             return undefined
         }
-
         this.length--
+
         this.array.splice(idx, 1)
         return item
     }
 
     get(idx: number): T | undefined {
-        if(idx < 0 || idx > this.length) {
+        if(idx < 0 || idx >= this.length) {
             return undefined
         }
         return this.array[idx]
     }
 
     removeAt(idx: number): T | undefined {
-        if(idx < 0 || idx > this.length) {
+        if(idx < 0 || idx >= this.length) {
             return undefined
         }
-
         this.length--
+
         const item = this.array[idx]
         this.array.splice(idx, 1)
         return item

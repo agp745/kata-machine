@@ -1,4 +1,4 @@
-function search(curr: BinaryNode<number> | null,  needle: number): boolean  {
+function search(curr: BinaryNode<number> | null, needle: number): boolean {
     if(!curr) {
         return false
     }

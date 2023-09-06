@@ -1,4 +1,4 @@
-export default class ArrayList<T> {
+export default class DoublyLinkedList<T> {
     public length: number;
 
     

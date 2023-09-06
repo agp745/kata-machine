@@ -84,3 +84,4 @@ Research the following algorithms on your own for implimentation (not covered in
 
 - BTBFS.ts
 - CompareBinaryTrees.ts
+- DFSOnBST.ts
