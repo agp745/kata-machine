@@ -1,54 +1,53 @@
 export default class ArrayList<T> {
-    public length: number;
-    private array: T[]
+  public length: number
+  private array: T[]
 
-    constructor() {
-        this.length = 0
-        this.array = []
+  constructor() {
+    this.length = 0
+    this.array = []
+  }
+
+  prepend(item: T): void {
+    this.length++
+    this.array.unshift(item)
+  }
+
+  insertAt(item: T, idx: number): void {
+    if (idx < 0 || idx >= this.length) {
+      return undefined
     }
+    this.array.splice(idx, 0, item)
+  }
 
-    prepend(item: T): void {
-        this.length++
-        this.array.unshift(item)
+  append(item: T): void {
+    this.length++
+    this.array.push(item)
+  }
+
+  remove(item: T): T | undefined {
+    const idx = this.array.indexOf(item)
+    if (idx < 0) {
+      return undefined
     }
+    this.length--
+    this.array.splice(idx, 1)
+    return item
+  }
 
-    insertAt(item: T, idx: number): void {
-        if(idx < 0 || idx >= this.length) {
-            return undefined
-        }
-        this.array.splice(idx, 0, item)
+  get(idx: number): T | undefined {
+    if (idx < 0 || idx >= this.length) {
+      return undefined
     }
+    return this.array[idx]
+  }
 
-    append(item: T): void {
-        this.length++
-        this.array.push(item)
+  removeAt(idx: number): T | undefined {
+    if (idx < 0 || idx >= this.length) {
+      return undefined
     }
-
-    remove(item: T): T | undefined {
-        const idx = this.array.indexOf(item)
-        if(idx < 0) {
-            return undefined
-        }
-        this.length--
-        this.array.splice(idx, 1)
-        return item
-    }
-
-    get(idx: number): T | undefined {
-        if(idx < 0 || idx >= this.length) {
-            return undefined
-        }
-        return this.array[idx]
-    }
-
-    removeAt(idx: number): T | undefined {
-        if(idx < 0 || idx >= this.length) {
-            return undefined
-        }
-        this.length--
-        const item = this.array[idx]
-        this.array.splice(idx, 1)
-        return item
-    }
-
+    this.length--
+    const item = this.array[idx]
+    this.array.splice(idx, 1)
+    return item
+  }
 }

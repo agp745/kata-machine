@@ -42,9 +42,10 @@ npx jest LinearSearchList.ts
 
 ## MISSING ALGORITHMS
 
-Research the following algorithms on your own for implimentation (not covered in ThePrimeagen's course):
+The following Data Structures are not covered in ThePrimeagen's course:
 
 - Array Buffer (Ring Buffer)
+- Trie
 
 ## Algorithms
 
@@ -85,3 +86,8 @@ Research the following algorithms on your own for implimentation (not covered in
 - BTBFS.ts
 - CompareBinaryTrees.ts
 - DFSOnBST.ts
+
+### Heap
+
+- MinHeap.ts
+- Trie.ts
