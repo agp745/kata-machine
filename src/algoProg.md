@@ -91,3 +91,9 @@ The following Data Structures are not covered in ThePrimeagen's course:
 
 - MinHeap.ts
 - Trie.ts
+
+### Graphs
+
+- BFSGraphMatrix.ts
+- DFSGraphList.ts
+- DijkstraList.ts
