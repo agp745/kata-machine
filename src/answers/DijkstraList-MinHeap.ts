@@ -1,8 +1,8 @@
-type Node = {
+export type Node = {
   vertex: number
   distance: number
 }
-class MinHeap {
+export class MinHeap {
   public length: number
   private heap: Node[] = []
 

@@ -42,10 +42,15 @@ npx jest LinearSearchList.ts
 
 ## MISSING ALGORITHMS
 
-The following Data Structures are not covered in ThePrimeagen's course:
+The following Data Structures & Algorithms are not covered in ThePrimeagen's course:
 
 - Array Buffer (Ring Buffer)
+- Singly Linked List
 - Trie
+- Map
+- Insertion Sort
+- Merge Sort
+- PrimsList
 
 ## Algorithms
 
@@ -97,3 +102,8 @@ The following Data Structures are not covered in ThePrimeagen's course:
 - BFSGraphMatrix.ts
 - DFSGraphList.ts
 - DijkstraList.ts
+
+### Maps
+
+- Map.ts
+- LRU.ts

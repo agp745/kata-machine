@@ -90,7 +90,7 @@ module.exports = {
     ],
   },
 
-  Map: {
+  Map_: {
     generic: '<T extends (string | number), V>',
     type: 'class',
     methods: [
